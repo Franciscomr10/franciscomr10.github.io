@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguaje de Marcas</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="icon" href="imagenes/icono.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Animals</h1>
+            <img class="logo" src="imagenes/logo.png" alt="Logo de Animals">
+        </div>
+    </header>
+    <nav>
+        <div class="menu">
+            <ul>
+                <a href="index.html">Inicio</a>
+                <a href="mascotas.html">Mascotas</a>
+                <a href="cuidados.html">Cuidados</a>
+                <a href="ciudades.html">Ciudades</a>
+                <a href="contacto.html">Contacto</a>
+            </ul>
+        </div>
+    </nav>
+    <center><h1>Contáctanos</h1></center>
+	<div class="contenedor">
+		<img src="imagenes/mascotas_form2.jpg" width="300px">
+		<div class="formulario-contenedor">
+			<form>
+				<label for="nombre">Nombre y apellidos:</label>
+				<input type="text" id="nombre" name="nombre" required>
+
+				<label for="direccion">Dirección de la vivienda:</label>
+				<input type="text" id="direccion" name="direccion" required>
+
+				<label for="mascotas">Número de mascotas:</label>
+				<input type="number" id="mascotas" name="mascotas" min="0" required>
+
+				<label>Urgencia:</label>
+				<label for="urgencia">
+					<input type="radio" id="urgencia" name="Urgencia" value="urgencia" required> Mucha urgencia
+				</label>
+				<label for="no_urgencia">
+					<input type="radio" id="no_urgencia" name="Urgencia" value="no_urgencia" required> Poca urgencia
+				</label>
+
+				<label>
+					<input type="checkbox" name="avisar" value="avisar"> Avisar por correo electrónico o SMS
+				</label>
+
+				<label for="mensaje">Detalle todo lo posible el motivo del contacto:</label>
+				<textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+				<input type="submit" value="Enviar">
+			</form>
+    	</div>
+		<img src="imagenes/mascotas_form1.jpg">
+	</div>	
+	<footer>Animals - Proyecto de Lenguaje de Marcas 2023 - Francisco David Martín Reguero</footer>
+</body>
+</html>

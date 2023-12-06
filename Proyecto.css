@@ -1,0 +1,70 @@
+header {
+    background-color: #905010;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.logo {
+    height:100px;
+    width:100px;
+}
+
+.menu {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:active {
+    background-color: #555; /* Color al pasar el ratón o cuando se hace clic */
+}
+body {
+	font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+	font-size: 20px;
+}
+.bienvenida{
+	width: 1000px;
+	display:block;
+	margin:auto;
+	
+}
+.contenedor{
+	display: flex
+}
+.foto1 {
+	margin-right: 50px;
+}
+.foto2 {
+	width:100%;
+	margin-left: 50px;
+}
+h1 {
+	text-align: center;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }

@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+  h1 {
+    text-align: center;
+}
+header {
+    background-color: #905010;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.logo {
+    height:100px;
+    width:100px;
+}
+
+.menu {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:active {
+    background-color: #555; /* Color al pasar el ratón o cuando se hace clic */
+}
+.contenedor {
+	display: flex
+	
+}
+.foto1 {
+	margin-right: 50px;
+	width: 50%;
+}
+.foto2 {
+	width: 50%;
+	opacity: 80%;
+}
+.foto3 {
+	position: absolute
+}
+.animacion {
+    animation: animacion 2s ease-in-out infinite;
+}
+@keyframes animacion {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.columna-texto {
+            column-count: 1;
+            column-gap: 20px;
+            max-width: 800px;
+            margin: 20px 20px 20px auto;
+        }
